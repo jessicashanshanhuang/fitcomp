@@ -16,6 +16,13 @@
 		5702CB852BA380BD00F0079E /* FitCompTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702CB842BA380BD00F0079E /* FitCompTests.swift */; };
 		5702CB8F2BA380BD00F0079E /* FitCompUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702CB8E2BA380BD00F0079E /* FitCompUITests.swift */; };
 		5702CB912BA380BD00F0079E /* FitCompUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702CB902BA380BD00F0079E /* FitCompUITestsLaunchTests.swift */; };
+		575BD5BE2BA38D3D00F625C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575BD5BD2BA38D3D00F625C0 /* ContentView.swift */; };
+		575BD5C02BA38D4000F625C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575BD5BF2BA38D4000F625C0 /* Assets.xcassets */; };
+		575BD5C32BA38D4000F625C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575BD5C22BA38D4000F625C0 /* Preview Assets.xcassets */; };
+		575BD5CD2BA38D4000F625C0 /* WatchFitComp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575BD5CC2BA38D4000F625C0 /* WatchFitComp_Watch_AppTests.swift */; };
+		575BD5D72BA38D4100F625C0 /* WatchFitComp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575BD5D62BA38D4100F625C0 /* WatchFitComp_Watch_AppUITests.swift */; };
+		575BD5D92BA38D4100F625C0 /* WatchFitComp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575BD5D82BA38D4100F625C0 /* WatchFitComp_Watch_AppUITestsLaunchTests.swift */; };
+		575BD5DC2BA38D4100F625C0 /* WatchFitComp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 575BD5B92BA38D3D00F625C0 /* WatchFitComp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +40,42 @@
 			remoteGlobalIDString = 5702CB692BA380BB00F0079E;
 			remoteInfo = FitComp;
 		};
+		575BD5C92BA38D4000F625C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5702CB622BA380BB00F0079E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575BD5B82BA38D3D00F625C0;
+			remoteInfo = "WatchFitComp Watch App";
+		};
+		575BD5D32BA38D4000F625C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5702CB622BA380BB00F0079E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575BD5B82BA38D3D00F625C0;
+			remoteInfo = "WatchFitComp Watch App";
+		};
+		575BD5DA2BA38D4100F625C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5702CB622BA380BB00F0079E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575BD5B82BA38D3D00F625C0;
+			remoteInfo = "WatchFitComp Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		575BD5E02BA38D4100F625C0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				575BD5DC2BA38D4100F625C0 /* WatchFitComp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5702CB6A2BA380BB00F0079E /* FitComp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitComp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +91,15 @@
 		5702CB8A2BA380BD00F0079E /* FitCompUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitCompUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5702CB8E2BA380BD00F0079E /* FitCompUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCompUITests.swift; sourceTree = "<group>"; };
 		5702CB902BA380BD00F0079E /* FitCompUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCompUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		575BD5B92BA38D3D00F625C0 /* WatchFitComp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchFitComp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		575BD5BD2BA38D3D00F625C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		575BD5BF2BA38D4000F625C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		575BD5C22BA38D4000F625C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		575BD5C82BA38D4000F625C0 /* WatchFitComp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchFitComp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		575BD5CC2BA38D4000F625C0 /* WatchFitComp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFitComp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		575BD5D22BA38D4000F625C0 /* WatchFitComp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchFitComp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		575BD5D62BA38D4100F625C0 /* WatchFitComp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFitComp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		575BD5D82BA38D4100F625C0 /* WatchFitComp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFitComp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +124,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		575BD5B62BA38D3D00F625C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575BD5C52BA38D4000F625C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575BD5CF2BA38D4000F625C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +154,9 @@
 				5702CB6C2BA380BB00F0079E /* FitComp */,
 				5702CB832BA380BD00F0079E /* FitCompTests */,
 				5702CB8D2BA380BD00F0079E /* FitCompUITests */,
+				575BD5BA2BA38D3D00F625C0 /* WatchFitComp Watch App */,
+				575BD5CB2BA38D4000F625C0 /* WatchFitComp Watch AppTests */,
+				575BD5D52BA38D4100F625C0 /* WatchFitComp Watch AppUITests */,
 				5702CB6B2BA380BB00F0079E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +167,9 @@
 				5702CB6A2BA380BB00F0079E /* FitComp.app */,
 				5702CB802BA380BD00F0079E /* FitCompTests.xctest */,
 				5702CB8A2BA380BD00F0079E /* FitCompUITests.xctest */,
+				575BD5B92BA38D3D00F625C0 /* WatchFitComp Watch App.app */,
+				575BD5C82BA38D4000F625C0 /* WatchFitComp Watch AppTests.xctest */,
+				575BD5D22BA38D4000F625C0 /* WatchFitComp Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +213,41 @@
 			path = FitCompUITests;
 			sourceTree = "<group>";
 		};
+		575BD5BA2BA38D3D00F625C0 /* WatchFitComp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				575BD5BD2BA38D3D00F625C0 /* ContentView.swift */,
+				575BD5BF2BA38D4000F625C0 /* Assets.xcassets */,
+				575BD5C12BA38D4000F625C0 /* Preview Content */,
+			);
+			path = "WatchFitComp Watch App";
+			sourceTree = "<group>";
+		};
+		575BD5C12BA38D4000F625C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				575BD5C22BA38D4000F625C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		575BD5CB2BA38D4000F625C0 /* WatchFitComp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				575BD5CC2BA38D4000F625C0 /* WatchFitComp_Watch_AppTests.swift */,
+			);
+			path = "WatchFitComp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		575BD5D52BA38D4100F625C0 /* WatchFitComp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				575BD5D62BA38D4100F625C0 /* WatchFitComp_Watch_AppUITests.swift */,
+				575BD5D82BA38D4100F625C0 /* WatchFitComp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatchFitComp Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,10 +258,12 @@
 				5702CB662BA380BB00F0079E /* Sources */,
 				5702CB672BA380BB00F0079E /* Frameworks */,
 				5702CB682BA380BB00F0079E /* Resources */,
+				575BD5E02BA38D4100F625C0 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				575BD5DB2BA38D4100F625C0 /* PBXTargetDependency */,
 			);
 			name = FitComp;
 			productName = FitComp;
@@ -191,6 +306,59 @@
 			productReference = 5702CB8A2BA380BD00F0079E /* FitCompUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		575BD5B82BA38D3D00F625C0 /* WatchFitComp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575BD5DD2BA38D4100F625C0 /* Build configuration list for PBXNativeTarget "WatchFitComp Watch App" */;
+			buildPhases = (
+				575BD5B52BA38D3D00F625C0 /* Sources */,
+				575BD5B62BA38D3D00F625C0 /* Frameworks */,
+				575BD5B72BA38D3D00F625C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchFitComp Watch App";
+			productName = "WatchFitComp Watch App";
+			productReference = 575BD5B92BA38D3D00F625C0 /* WatchFitComp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		575BD5C72BA38D4000F625C0 /* WatchFitComp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575BD5E12BA38D4100F625C0 /* Build configuration list for PBXNativeTarget "WatchFitComp Watch AppTests" */;
+			buildPhases = (
+				575BD5C42BA38D4000F625C0 /* Sources */,
+				575BD5C52BA38D4000F625C0 /* Frameworks */,
+				575BD5C62BA38D4000F625C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575BD5CA2BA38D4000F625C0 /* PBXTargetDependency */,
+			);
+			name = "WatchFitComp Watch AppTests";
+			productName = "WatchFitComp Watch AppTests";
+			productReference = 575BD5C82BA38D4000F625C0 /* WatchFitComp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		575BD5D12BA38D4000F625C0 /* WatchFitComp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575BD5E42BA38D4100F625C0 /* Build configuration list for PBXNativeTarget "WatchFitComp Watch AppUITests" */;
+			buildPhases = (
+				575BD5CE2BA38D4000F625C0 /* Sources */,
+				575BD5CF2BA38D4000F625C0 /* Frameworks */,
+				575BD5D02BA38D4000F625C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575BD5D42BA38D4000F625C0 /* PBXTargetDependency */,
+			);
+			name = "WatchFitComp Watch AppUITests";
+			productName = "WatchFitComp Watch AppUITests";
+			productReference = 575BD5D22BA38D4000F625C0 /* WatchFitComp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +380,17 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 5702CB692BA380BB00F0079E;
 					};
+					575BD5B82BA38D3D00F625C0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					575BD5C72BA38D4000F625C0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 575BD5B82BA38D3D00F625C0;
+					};
+					575BD5D12BA38D4000F625C0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 575BD5B82BA38D3D00F625C0;
+					};
 				};
 			};
 			buildConfigurationList = 5702CB652BA380BB00F0079E /* Build configuration list for PBXProject "FitComp" */;
@@ -230,6 +409,9 @@
 				5702CB692BA380BB00F0079E /* FitComp */,
 				5702CB7F2BA380BD00F0079E /* FitCompTests */,
 				5702CB892BA380BD00F0079E /* FitCompUITests */,
+				575BD5B82BA38D3D00F625C0 /* WatchFitComp Watch App */,
+				575BD5C72BA38D4000F625C0 /* WatchFitComp Watch AppTests */,
+				575BD5D12BA38D4000F625C0 /* WatchFitComp Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +434,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5702CB882BA380BD00F0079E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575BD5B72BA38D3D00F625C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575BD5C32BA38D4000F625C0 /* Preview Assets.xcassets in Resources */,
+				575BD5C02BA38D4000F625C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575BD5C62BA38D4000F625C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575BD5D02BA38D4000F625C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,6 +494,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		575BD5B52BA38D3D00F625C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575BD5BE2BA38D3D00F625C0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575BD5C42BA38D4000F625C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575BD5CD2BA38D4000F625C0 /* WatchFitComp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575BD5CE2BA38D4000F625C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575BD5D72BA38D4100F625C0 /* WatchFitComp_Watch_AppUITests.swift in Sources */,
+				575BD5D92BA38D4100F625C0 /* WatchFitComp_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -301,6 +531,21 @@
 			isa = PBXTargetDependency;
 			target = 5702CB692BA380BB00F0079E /* FitComp */;
 			targetProxy = 5702CB8B2BA380BD00F0079E /* PBXContainerItemProxy */;
+		};
+		575BD5CA2BA38D4000F625C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575BD5B82BA38D3D00F625C0 /* WatchFitComp Watch App */;
+			targetProxy = 575BD5C92BA38D4000F625C0 /* PBXContainerItemProxy */;
+		};
+		575BD5D42BA38D4000F625C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575BD5B82BA38D3D00F625C0 /* WatchFitComp Watch App */;
+			targetProxy = 575BD5D32BA38D4000F625C0 /* PBXContainerItemProxy */;
+		};
+		575BD5DB2BA38D4100F625C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575BD5B82BA38D3D00F625C0 /* WatchFitComp Watch App */;
+			targetProxy = 575BD5DA2BA38D4100F625C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +662,7 @@
 		5702CB952BA380BD00F0079E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FitComp/FitComp.entitlements;
@@ -443,16 +689,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FitComp.FitComp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5702CB962BA380BD00F0079E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FitComp/FitComp.entitlements;
@@ -479,10 +728,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FitComp.FitComp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -572,6 +823,145 @@
 			};
 			name = Release;
 		};
+		575BD5DE2BA38D4100F625C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchFitComp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchFitComp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = FitComp.FitComp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FitComp.FitComp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		575BD5DF2BA38D4100F625C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchFitComp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchFitComp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = FitComp.FitComp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FitComp.FitComp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		575BD5E22BA38D4100F625C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FitComp.WatchFitComp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchFitComp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchFitComp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		575BD5E32BA38D4100F625C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FitComp.WatchFitComp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchFitComp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchFitComp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		575BD5E52BA38D4100F625C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FitComp.WatchFitComp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchFitComp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		575BD5E62BA38D4100F625C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FitComp.WatchFitComp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchFitComp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,6 +997,33 @@
 			buildConfigurations = (
 				5702CB9B2BA380BD00F0079E /* Debug */,
 				5702CB9C2BA380BD00F0079E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575BD5DD2BA38D4100F625C0 /* Build configuration list for PBXNativeTarget "WatchFitComp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575BD5DE2BA38D4100F625C0 /* Debug */,
+				575BD5DF2BA38D4100F625C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575BD5E12BA38D4100F625C0 /* Build configuration list for PBXNativeTarget "WatchFitComp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575BD5E22BA38D4100F625C0 /* Debug */,
+				575BD5E32BA38D4100F625C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575BD5E42BA38D4100F625C0 /* Build configuration list for PBXNativeTarget "WatchFitComp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575BD5E52BA38D4100F625C0 /* Debug */,
+				575BD5E62BA38D4100F625C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
